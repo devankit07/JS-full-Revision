@@ -1,42 +1,151 @@
-// 7. Ask user’s age and check if eligible to vote
-// If age >= 18 → “Eligible”, else → “Not eligible”
+// 🧩 Beginner Level — Control Flow (5 Questions)
 
-// 8. Print multiplication table of 5
-// Use loop to print 5 × 1 to 5 × 10.
 
-// 9. Count how many numbers between 1 and 15 are greater than 8
-// Loop and count conditionally.
+// Positive or Negative
+// Write a program that takes a number from the user and checks whether it is positive, negative, or zero.
 
-// 10. Ask user for password and print access status
-// Hardcoded correct password. Compare with user input.
 
-// Level 2 – Slightly Tougher but Logical
-// 11. Allow only 3 attempts to enter correct password
-// If user gets it right early, stop. If not → “Account locked”
 
-// 12. Ask user for words until they type “stop”. Count how many times they typed “yes”
-// Loop until "stop" is typed. Count "yes".
+// let ask = +prompt("number btao");
+// if(ask>0){
+//     console.log("postive");
+// }else if(ask<0){
+//     console.log("negative");
+// }else{
+//     console.log("zero")
+// };
 
-// 13. Print numbers divisible by 7 from 1 to 50
-// Use modulo % and loop.
 
-// 14. Sum of all odd numbers from 1 to 30
-// Add only odd numbers. Print final sum.
 
-// 15. Keep asking number until user enters an even number
-// Use while loop. Stop only if input is even.
+// Even or Odd
+// Write a program to check if a given number is even or odd using if-else.
 
-// 16. Print numbers between two user inputs
-// Input start and end using prompt() → print all between.
 
-// 17. Print only first 3 odd numbers from 1 to 20
-// Use loop. Stop with break after 3 odd prints.
+// let pucho = +prompt("pucho bhai");
+// if(isNaN(pucho)){
+//     console.log("bhai number likho");
+// }else if(pucho%2===0)
+// {
+//  console.log("even");
+// }else{console.log("odd")}
 
-// 18. Ask user 5 numbers. Count how many are positive
-// Use loop + condition + counter.
 
-// 19. ATM Simulator – Allow 3 withdrawals
-// Start with ₹1000 balance. Ask withdrawal amount 3 times.
-// If enough balance → deduct
-// Else → print “Insufficient balance”
-// Displaying ques.txt.
+
+// Largest of Two Numbers
+// Take two numbers as input and display which one is greater, or if they are equal.
+
+// let pehla = +prompt("pehla number btao");
+// let dusra = +prompt("dusra number btao");
+
+// if(isNaN(pehla) || isNaN(dusra)){
+//     console.error("bhai tumne galat likha hai");
+// }else if (pehla === dusra){
+//     console.log("both are equal");
+// }else if (pehla > dusra){
+//     console.log(`${pehla}bada hai`);
+// }else {
+//     console.log(`${dusra}bada hai`);
+// }
+
+
+// Grading System
+// Write a program that takes a student’s marks (0–100) and prints their grade:
+
+// A: 90–100
+
+// B: 75–89
+
+// C: 50–74
+
+// F: below 50
+
+
+// let gradebtao = +prompt("marks do muje:");
+
+// if(isNaN(gradebtao)){
+//     console.error("kuch bhi !")
+// } else if (gradebtao >=90 && gradebtao<=100){
+//     console.log("grade:A");
+// } else if (gradebtao >=75 && gradebtao<=89){
+//     console.log("grade:B");
+// }else if (gradebtao >=50 && gradebtao<=74){
+//     console.log("grade:C");
+// }else if(gradebtao>=0 && gradebtao<=50){
+//     console.log("grade:F");
+// }else{
+//     console.log("marks given range 0-100");
+// };
+
+
+// Day of the Week (Switch)
+// Write a program using switch that takes a number (1–7) and prints the corresponding day name (1 → Monday, 2 → Tuesday, etc.).
+
+// let dayNumber = +prompt("1-7 ke beech number do:");
+
+// switch(dayNumber) {
+//     case 1:
+//         console.log("Monday");
+//         break;
+//     case 2:
+//         console.log("Tuesday");
+//         break;
+//     case 3:
+//         console.log("Wednesday");
+//         break;
+//     case 4:
+//         console.log("Thursday");
+//         break;
+//     case 5:
+//         console.log("Friday");
+//         break;
+//     case 6:
+//         console.log("Saturday");
+//         break;
+//     case 7:
+//         console.log("Sunday");
+//         break;
+//     default:
+//         console.log("Invalid number! 1-7 ke beech do.");
+// }
+
+
+
+// Beginner Level — Loops (5 Questions)
+
+// Print Numbers 1–10
+// Write a program to print numbers from 1 to 10 using a for loop.
+
+// for (let i =1; i<=10;i++){
+//     console.log(i)
+// };
+
+
+// Sum of First N Numbers
+// Take a number N from the user and calculate the sum of first N natural numbers using a loop.
+
+// let N = +prompt("Enter a number N:");
+// let sum = 0;
+
+// if (isNaN(N) || N <= 0) {
+//   console.log("Please enter a valid positive number!");
+// } else {
+//   for (let i = 1; i <= N; i++) {
+//     sum += i; // add i to sum
+//   }
+//   console.log(`Sum of first ${N} numbers is ${sum}`);
+// }
+
+
+
+// Multiplication Table
+// Ask the user for a number and print its multiplication table up to 10 using a loop.
+
+
+
+// Even Numbers till N
+// Take a number N and print all even numbers from 1 to N using a loop.
+
+// Reverse Counting
+// Take a number N and print numbers from N down to 1 using a loop
+
+
