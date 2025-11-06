@@ -140,12 +140,124 @@
 // Multiplication Table
 // Ask the user for a number and print its multiplication table up to 10 using a loop.
 
+// let num = +prompt("Konsa number ka table chahiye?");
+
+// if (isNaN(num)) {
+//   console.log("Bhai number likho, alphabet nahi 😅");
+// } else {
+//   console.log(`\nMultiplication Table of ${num}:\n`);
+//   for (let i = 1; i <= 10; i++) {
+//     console.log(`${num} x ${i} = ${num * i}`);
+//   }
+// }
+
 
 
 // Even Numbers till N
 // Take a number N and print all even numbers from 1 to N using a loop.
 
+// let n = +prompt("number do (n):");
+
+// if(isNaN(n) || n<0){
+//     console.log("please enter positive number");
+// }else {
+//     console.log(`even number tille${n}:`);
+//     for(let i= 1; i<=n;i++){
+//         if(i%2 === 0){
+//             console.log(i);
+//         }
+//     }
+// }
+
+
+
 // Reverse Counting
 // Take a number N and print numbers from N down to 1 using a loop
+
+
+// let n = +prompt("number do");
+// if(isNaN(n) || n<0){
+//      console.log("please enter positive number");
+// }else{
+//     console.log(`reverse number from${n}:`);
+//     for(let i = n; i>= 1; i--){
+//         console.log(i)
+//     }
+
+// };
+
+
+
+
+// Question 1 — Count Even and Odd Numbers
+
+// Write a program that:
+
+// Takes a number N from the user.
+
+// Prints all numbers from 1 to N.
+
+// At the end, prints how many of them are even and how many are odd.
+
+
+// let n = +prompt("Number do:");
+
+// if (isNaN(n) || n < 0) {
+//   console.log("Please ek positive number do!");
+// } else {
+//   let evenCount = 0;
+//   let oddCount = 0;
+
+//   console.log(`\nEven and Odd numbers from ${n} to 1:`);
+
+//   for (let i = n; i >= 1; i--) {
+//     if (i % 2 === 0) {
+//       console.log(`${i} is Even`);
+//       evenCount++;
+//     } else {
+//       console.log(`${i} is Odd`);
+//       oddCount++;
+//     }
+//   }
+
+//   console.log(`\nTotal Even: ${evenCount}`);
+//   console.log(`Total Odd: ${oddCount}`);
+// }
+
+
+
+// Question 2 — Sum of Even Numbers Only
+
+// Write a program that:
+
+// Takes a number N from the user.
+
+// Finds the sum of all even numbers from 1 to N.
+
+// If N is negative or not a number, print a proper error message.
+
+
+
+
+
+// let n = +prompt("number do :");
+
+// if(isNaN(n) || n<0){
+//     console.error("please wrie a number");
+// }else{
+//     let sum =0;
+//     console.log(`sum of even number from${n}`);
+
+//     for(let i =n; i>=1; i--){
+//         if(i%2=== 0){
+//             console.log(i);
+//             sum += i;
+//         }
+//     }
+//     console.log(`sum of all even number ${n}to 1 is:${sum}`);
+// }
+
+
+
 
 
