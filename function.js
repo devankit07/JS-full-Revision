@@ -70,7 +70,122 @@ function valid(){
 let dekho =valid();
 console.log(dekho);
 
-//
+// recusion in js
+
+//   function recursiveFunction() {
+      // do something
+//   recursiveFunction(); // function calling itself
+// }
+
+function countdown(n) {
+  if (n <= 0) {
+    console.log("Done!");
+    return; // base case
+  }
+  console.log(n);
+  countdown(n - 1); 
+}
+
+countdown(5);
+
+
+
+// first class function-> function ko value ki tarah treat kr sakte hai
+
+
+function abcd(val){
+    val();
+}
+abcd(function(){
+    console.log("heyyy")
+})
+
+// high order function-> bo fncs hota hai jo ki return kre ek fncs ya phir accept kre ek fncs apne parameter mai.
+
+function bcs(h4){
+
+}
+
+bcs(function(){
+    console.log("isme bcs ek high order gnc hai kyuki iske parameter mai ek fncs accept ho rha hai")
+});
+
+
+function lol(){
+    return function(){
+        console.log("isme paramete ma nhi balki function return ho rha h")
+    }
+}
+lol();
+
+
+
+// pure and impure
+
+let a = 11;
+
+function pure(){
+    console.log("isme koi value change nhi ho ri to pure fncs")
+};
+
+function impure(){
+    console.log("isme a ki value change hogi to impure")
+    a++;
+};
+
+// clousers -> ek fncs jo return kre fncs but return hone wala parents fncs ka koi variable use krega.
+
+function clousers(){
+    let a = 14;
+    return function(){
+        console.log(a)
+    }
+};
+
+
+// lexical scoping -> ka matlab unki phiysical position ka scope kya hai 
+// isme a b c inki physical position kha se kha tak accessable hai use lexical scope bolte hai.
+
+function abcd(){
+    let a = 11;
+    function rfds(){
+        let b = 12;
+        function ood(){
+            let c =13;
+        }
+    }
+}
+
+
+// iife-> immediatly invoke mean turant run hoga within second
+(function(){
+    console.log("turan chalunga call akredy ho !")
+})();
+
+
+// hoisting -> declaration and expression
+
+//-> declaration mai hosting hoti hai yani function delare se pehle use call kra ja sakt hai 
+
+gff();
+
+
+
+function gff(){
+    console.log("hoistinf ho sakti hai ")
+};
+
+
+//-> expression mai hoisting nhi hotii hai kyunki bo fncs variable se bana hota hai 
+
+let gff = function(){
+    console.log("hoistinf not work ")
+};
+
+
+
+
+
 
 
 
