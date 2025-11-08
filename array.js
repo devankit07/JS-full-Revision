@@ -44,6 +44,62 @@ let sr =arr.sort(function(a,b){
 });
 
 
+// map filter foreach reduce ye sab ek fncs aaccept krte hai
+
+//forEach-> har ek value ke liye fncs ko chalata hai.
+arr.forEach(function(val){
+   console.log(val+5);
+});
+
+//map-> use map only when you want new array on depends on old array data
+// jab bhi aisa case dikhe jha par ek array se naya array bngega or bo naya array kuch value ko rakhega. agr kuch return nhi krega to undefined hoga.
+
+let ans = arr.map(function(hell){
+    return 12;
+});
+
+//filter-> ye bhi new array bnata hai but kuch value hi leta hai old array se agr true hai.
+
+let mewarr = arr.filter(function(val){
+    if(val>4) return true;
+});
+
+// reduce->  ek array se ek value banana.
+
+arr.reduce(function(accumlator, val){
+    accumlator + val;
+},0);
+
+//some, find, every-> 
+
+//some-> ye check karta hai ki kya koi ek value true hai ya nahi.
+arr.some(function(val){
+    if(val>4) return true;
+});
+
+//find-> ye pehli value return karta hai jo true hai.
+arr.find(function(val){
+    if(val>4) return true;
+});
+
+//every-> ye check karta hai ki kya sabhi value true hai ya nahi.
+arr.every(function(val){
+    if(val>4) return true;
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
