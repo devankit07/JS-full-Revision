@@ -260,4 +260,105 @@
 
 
 
+// FUNCTIONS — EASY LEVEL (5 Questions)
+
+// sayHello() — Ek function banao jo "Hello JavaScript!" print kare.
+
+// function sayhello(){
+//     console.log("hello javascript");
+// }
+
+// sayhello();
+
+// greet(name) — Naam input le aur "Hello <name>" print kare.
+
+// function greet(name){
+//     console.log(`hello${name}`)
+// }
+// greet("ankit");
+
+// add(a, b) — Dono number ka sum return kare.
+
+// function jodo(v1 ,v2){
+//     return  v1 + v2
+// }
+
+// let and =jodo(475,986);
+// console.log(and);
+
+// isEven(num) — Number even hai ya odd, ye check kare.
+
+// function isEven(num){
+//     if(num%2 ===0) {return "true";}
+//     else {
+//         return "false";
+//     }
+// }
+
+// console.log(isEven(11));
+// console.log(isEven(10));
+
+// square(num) — Number ka square return kare.
+
+// function square(num)
+// {
+//      return num * num;
+// }
+
+// console.log(square(4));
+
+
+// FUNCTIONS — INTERMEDIATE LEVEL (Next 5 Questions)
+
+// findMax(a, b, c) → Teen numbers me se sabse bada return karo.
+
+// function findMax(a,b,c){
+//     return Math.max(a,b,c)
+// }
+
+// console.log(findMax(7777, 7767, 7757));
+
+
+
+// factorial(n) → Given number ka factorial return karo.
+
+// function factorial(n){
+//     let fact = 1;
+
+//     for(let i= 1;i<= n;i++){
+//         fact = fact*i ;
+//     }{
+//         return fact;
+//     }
+// }
+
+// console.log(factorial(7));
+
+// // countVowels(str) → String me total vowels (a, e, i, o, u) count karo.
+
+// function countVowels(str){
+//     return (str.match(/[aeiou]/gi)|| [].length);
+// }
+// console.log(countVowels("ankit"));
+
+
+// reverseString(str) → Di gayi string ko reverse karke return karo.
+// function reverseString(str){
+//     return str.split('').reverse().join('');
+// };
+
+// console.log(reverseString("ram ram"));
+
+//split-> string ko chote array ke part mai tod dena
+//reverse -> unhe reverse kr dega
+//join -> un reverse ko baps jod dega
+
+
+
+
+
+
+
+
+
 
