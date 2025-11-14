@@ -355,6 +355,80 @@
 
 
 
+// ARRAYS — 10 Questions
+// 🟩 Easy Level (1–5)
+
+// Create and print array:
+// Ek array banao [1, 2, 3, 4, 5] aur console me print karo.
+
+
+// let arr =[1,2,3,4,50];
+// console.log(arr);
+
+// Sum of array elements:
+// [2, 4, 6, 8] ka sum calculate karo.
+
+// let sum = 0;
+// let arr = [2,4,6,8];
+// for(let i = 1; i< arr.length; i++ ){
+//     sum += arr[i];
+// }
+
+// console.log(sum);
+
+
+
+
+
+// Find max element in array:
+// [5, 9, 2, 7, 1] me sabse bada element find karo.
+
+// let arr=[5,9,2,7,1];
+
+// let max =Math.max(...arr)
+
+// console.log(max)
+
+
+// Check if element exists:
+// [10, 20, 30, 40] me check karo ki 30 exist karta hai ya nahi.
+
+
+// let arr = [10,20,30,70,80]
+
+// console.log(arr.includes(70));
+
+// Reverse array:
+// [1, 2, 3, 4, 5] ko reverse karke print karo.
+
+
+// let arr = [8,9,6,7,6,2,8,5]
+// console.log( arr.reverse());
+
+
+// 🟡 Intermediate Level (6–10)
+
+// Remove duplicates from array:
+// [1, 2, 2, 3, 4, 4, 5] → [1, 2, 3, 4, 5]
+
+
+
+// Find even numbers in array:
+// [1, 2, 3, 4, 5, 6] → [2, 4, 6]
+
+// Multiply all elements by 2:
+// [1, 2, 3] → [2, 4, 6]
+
+// Sort array ascending:
+// [5, 2, 9, 1, 7] → [1, 2, 5, 7, 9]
+
+// Find average of array elements:
+// [10, 20, 30, 40, 50] → 30
+
+
+
+
+
 
 
 
