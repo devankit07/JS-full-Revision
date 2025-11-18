@@ -35,3 +35,42 @@ classse.addEventListener('mouseover',function(){
 idse.addEventListener('mouseout',function(){
     idse.style.fontSize="70px"
 });
+
+// math random & floor
+
+// math.random -> se cure random number generate krta hai 0 to 0.99999 tak
+const randomNum = Math.random(); 
+console.log(randomNum);  
+
+// math.floor -> se decimal ko remove krta hai
+const flooredNum = Math.floor(4.7);
+console.log(flooredNum); 
+
+
+// create emelements -> is se naya element create kr skte hai
+
+ const newElement = document.createElement('tagname');
+    newElement.innerHTML="yeh naya element hai";
+    console.log(newElement);
+
+// append element -> is se element ko add kr skte hai ya window me show kr skte hai
+    document.body.appendChild(newElement);
+
+// remove element -< is se element ko remove kr skte hai
+    newElement.remove();
+
+//replace element -> is se element ko replace kr skte hai
+ const anotherElement = document.createElement('p');
+ anotherElement.innerHTML="yeh replace hua element hai";
+ document.body.replaceChild(anotherElement, newElement);
+
+ 
+
+
+
+
+
+
+
+
+
