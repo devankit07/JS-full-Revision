@@ -64,6 +64,37 @@ console.log(flooredNum);
  anotherElement.innerHTML="yeh replace hua element hai";
  document.body.replaceChild(anotherElement, newElement);
 
+
+ // setInterval -> is se hum koi function ko bar bar chla skte hai specified time ke baad
+ setInterval(function(){
+    console.log("yeh function har 2 second me chlega");
+ },2000);
+
+
+// clearInterval -> is se hum setInterval ko rok skte hai
+    const intervalId = setInterval(function(){  
+        console.log("yeh function har 2 second me chlega");
+     },2000);
+
+     clearInterval(intervalId); // is se interval ruk jayega
+
+
+
+ // setTimeout -> is se hum koi function ko ek baar specified time ke baad chla skte hai
+
+    setTimeout(function(){
+        console.log("yeh function 3 second ke baad 1 bar chlega");
+    },3000);
+
+
+// clearTimeout -> is se hum setTimeout ko rok skte hai
+    const timeoutId = setTimeout(function(){
+        console.log("yeh function 3 second ke baad 1 bar chlega");
+    },3000);    
+
+    clearTimeout(timeoutId); // is se timeout ruk jayega
+
+
  
 
 
