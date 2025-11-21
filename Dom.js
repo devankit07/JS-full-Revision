@@ -97,7 +97,20 @@ console.log(flooredNum);
 
  
 
+// array of objects & accessing data
 
+    const users = [
+        {name: "Alice", age: 25, city: "New York"},
+        {name: "Bob", age: 30, city: "San Francisco"},
+        {name: "Charlie", age: 35, city: "Los Angeles"}
+    ];
+    console.log(users[0].name); // Alice
+    console.log(users[1].age);
+    console.log(users[2].city);
+    // loop through array of objects
+    users.forEach(function(elem){
+        console.log(elem.name + " is " + elem.age + " years old and lives in " + elem.city);
+    });
 
 
 
