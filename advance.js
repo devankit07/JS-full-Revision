@@ -100,3 +100,40 @@ class Manav {
 
 let pehla = new Manav();
 pehla.age = 3;
+
+
+
+//synchronous/asynchronous
+
+// js single threaded yani synchronous
+
+// syn-> single threaded -> Kaam ek-ek karke hota hai, line by line. Agla code tab chalega jab pehla complete ho jaaye.
+
+// it's a problem is se site stuck/ freeze ho jati h solution hum syn ko asyn mai convert kr akte h.
+
+// async -> Kaam background me hota hai, wait nahi karta. Baaki code chalti rahegi jab tak async kaam complete nahi hota.
+
+
+// callbacks and problem in callback
+
+//tis a function.never runs instantly, when your work done then execute auto..
+// ya ek fncs mai callback ko pass krna ..
+
+function abc(argu){
+  argu();
+}
+abc(function(){
+  console.log("isme ye fnc pass hoga ")
+})
+
+// callback example..
+
+function usersedetailslaoo(add,callback){
+  setTimeout(()=>{
+    callback(22);
+  },3000);
+}
+
+usersedetailslaoo("h25,block-8", function(detail){
+  console.log(detail);
+})
