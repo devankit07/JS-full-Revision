@@ -45,7 +45,7 @@
 //hoisting ka matlab ki variables ko initialzie se pehle luse kiya ja sakta hai ya nahi 
 //var mai undefined ata hai 
 //lekin let or const mai error kyunki bo tdz kai hote hai
-
+// tdz ka mean hoist 2 part mai split krta hai variable ko to usme let ot const ko  initialize nhi kr pata 
 
 
 
