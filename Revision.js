@@ -42,6 +42,11 @@
 // }
 
 // hoisting and tdz(temporal dead zone)
+//hoisting ka matlab ki variables ko initialzie se pehle luse kiya ja sakta hai ya nahi 
+//var mai undefined ata hai 
+//lekin let or const mai error kyunki bo tdz kai hote hai
+
+
 
 
 
