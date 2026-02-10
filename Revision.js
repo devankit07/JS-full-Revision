@@ -95,3 +95,5 @@
 // console.log(c);
 // const c = 11;  error
 
+//data type
+// string , int, boolean,null, undefined,bigint
