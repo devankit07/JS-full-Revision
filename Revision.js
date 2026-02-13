@@ -97,3 +97,5 @@
 
 //data type
 // string , int, boolean,null, undefined,bigint
+
+//condition rendering -if else , switch case
